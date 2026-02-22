@@ -678,63 +678,11 @@
       <div class="hashtag-bubble" style="margin-top: 2rem;">Avec toute notre reconnaissance</div>
     </section>
 
-    <!-- SECTION SOUVENIRS (5 images commentées) -->
+    <!-- SECTION SOUVENIRS (rempli automatiquement depuis dossier /souvenir) -->
     <section style="margin: 5rem 0; text-align: center;">
       <h2 class="gallery-title" style="margin-bottom: 0.5rem;">Nos Souvenirs</h2>
       <p style="font-size: 3rem; color: var(--rose-burgundy); font-style: italic; margin-bottom: 2rem;">Du fond du cœur</p>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2rem; max-width: 1100px; margin: 0 auto; padding: 0 1rem;">
-        
-        <!-- Souvenir 1 -->
-        <div style="background: rgba(255,255,255,0.6); border-radius: 20px; overflow: hidden; box-shadow: 0 15px 30px -10px rgba(153,27,27,0.2); transition: transform 0.3s ease;" class="souvenir-card">
-          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=300&auto=format" alt="Fiançailles" style="width: 100%; height: 220px; object-fit: cover;">
-          <div style="padding: 1.5rem; text-align: center;">
-            <h3 style="color: var(--rose-burgundy); font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; margin-bottom: 0.5rem;">♥ Nos fiançailles</h3>
-            <p style="color: var(--text-muted); font-size: 0.95rem;">Le moment où tout a commencé. Cette journée de rêve où nous avons promis notre vie ensemble.</p>
-            <small style="color: var(--text-light); display: block; margin-top: 0.8rem;">Juillet 2025</small>
-          </div>
-        </div>
-
-        <!-- Souvenir 2 -->
-        <div style="background: rgba(255,255,255,0.6); border-radius: 20px; overflow: hidden; box-shadow: 0 15px 30px -10px rgba(153,27,27,0.2); transition: transform 0.3s ease;" class="souvenir-card">
-          <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=300&auto=format" alt="Décoration" style="width: 100%; height: 220px; object-fit: cover;">
-          <div style="padding: 1.5rem; text-align: center;">
-            <h3 style="color: var(--rose-burgundy); font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; margin-bottom: 0.5rem;">♥ Les préparatifs</h3>
-            <p style="color: var(--text-muted); font-size: 0.95rem;">Chaque détail a été pensé avec amour pour créer une atmosphère de rêve et de tendresse.</p>
-            <small style="color: var(--text-light); display: block; margin-top: 0.8rem;">Septembre 2025</small>
-          </div>
-        </div>
-
-        <!-- Souvenir 3 -->
-        <div style="background: rgba(255,255,255,0.6); border-radius: 20px; overflow: hidden; box-shadow: 0 15px 30px -10px rgba(153,27,27,0.2); transition: transform 0.3s ease;" class="souvenir-card">
-          <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=300&auto=format" alt="Séance photo" style="width: 100%; height: 220px; object-fit: cover;">
-          <div style="padding: 1.5rem; text-align: center;">
-            <h3 style="color: var(--rose-burgundy); font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; margin-bottom: 0.5rem;">♥ Notre histoire</h3>
-            <p style="color: var(--text-muted); font-size: 0.95rem;">Une histoire d'amour vrai, simple et profonde, accompagnée de ceux que nous aimons.</p>
-            <small style="color: var(--text-light); display: block; margin-top: 0.8rem;">Octobre 2025</small>
-          </div>
-        </div>
-
-        <!-- Souvenir 4 -->
-        <div style="background: rgba(255,255,255,0.6); border-radius: 20px; overflow: hidden; box-shadow: 0 15px 30px -10px rgba(153,27,27,0.2); transition: transform 0.3s ease;" class="souvenir-card">
-          <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=300&auto=format" alt="Famille" style="width: 100%; height: 220px; object-fit: cover;">
-          <div style="padding: 1.5rem; text-align: center;">
-            <h3 style="color: var(--rose-burgundy); font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; margin-bottom: 0.5rem;">♥ Familles unies</h3>
-            <p style="color: var(--text-muted); font-size: 0.95rem;">Ces moments précieux en famille nous ont préparés à ce grand jour de communion.</p>
-            <small style="color: var(--text-light); display: block; margin-top: 0.8rem;">Novembre 2025</small>
-          </div>
-        </div>
-
-        <!-- Souvenir 5 -->
-        <div style="background: rgba(255,255,255,0.6); border-radius: 20px; overflow: hidden; box-shadow: 0 15px 30px -10px rgba(153,27,27,0.2); transition: transform 0.3s ease;" class="souvenir-card">
-          <img src="https://images.unsplash.com/photo-1520853504280-249b72dc947c?w=300&auto=format" alt="Jour J" style="width: 100%; height: 220px; object-fit: cover;">
-          <div style="padding: 1.5rem; text-align: center;">
-            <h3 style="color: var(--rose-burgundy); font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; margin-bottom: 0.5rem;">♥ Le Grand Jour</h3>
-            <p style="color: var(--text-muted); font-size: 0.95rem;">14 février 2026 : Le jour où nos deux cœurs n'en ont fait qu'un, entourés de tout notre amour.</p>
-            <small style="color: var(--text-light); display: block; margin-top: 0.8rem;">Février 2026</small>
-          </div>
-        </div>
-
-      </div>
+      <div id="souvenirGrid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2rem; max-width: 1100px; margin: 0 auto; padding: 0 1rem;"></div>
     </section>
 
     <div class="gradient-line" style="margin: 5rem 0;"></div>
@@ -791,33 +739,87 @@
   <script>
     lucide.createIcons();
 
-    // ===== BASE DE DONNÉES IMAGES (25 exemples variés) =====
+    // ===== BASE DE DONNÉES IMAGES (depuis dossier local /image) =====
     const galleryImages = [
-      { url: "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&auto=format", caption: "Nos fiançailles", date: "Juillet 2025" },
-      { url: "https://images.unsplash.com/photo-1469371670807-013ccf25f16a?w=600&auto=format", caption: "Préparation à l'église", date: "Retraite · Août 2025" },
-      { url: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=600&auto=format", caption: "Séance engagement", date: "Parc floral · Sept 2025" },
-      { url: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&auto=format", caption: "Décoration florale", date: "Thème roses" },
-      { url: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=600&auto=format", caption: "Famille et amis", date: "Dîner · Oct 2025" },
-      { url: "https://images.unsplash.com/photo-1530041539828-114de669890e?w=600&auto=format", caption: "Les alliances", date: "Symbole éternel" },
-      { url: "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=600&auto=format", caption: "Dégustation gâteau", date: "Saveurs du jour" },
-      { url: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600&auto=format", caption: "Église St Pierre", date: "Répétition · Jan 2026" },
-      { url: "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?w=600&auto=format", caption: "Soirée entre amis", date: "Enterrement vie" },
-      { url: "https://images.unsplash.com/photo-1520853504280-249b72dc947c?w=600&auto=format", caption: "Bouquet de la mariée", date: "Roses blanches" },
-      { url: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&auto=format", caption: "Champêtre", date: "Séance automne" },
-      { url: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&auto=format", caption: "Centre de table", date: "Détails floraux" },
-      { url: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=600&auto=format", caption: "Photo de groupe", date: "Famille élargie" },
-      { url: "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?w=600&auto=format", caption: "Cadeaux", date: "Témoignages" },
-      { url: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&auto=format", caption: "Balade romantique", date: "Parc · Nov 2025" },
-      { url: "https://images.unsplash.com/photo-1469371670807-013ccf25f16a?w=600&auto=format", caption: "Choeur gospel", date: "Répétition chant" },
-      { url: "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&auto=format", caption: "Demande officielle", date: "Souvenir émouvant" },
-      { url: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=600&auto=format", caption: "Photo booth", date: "Amis" },
-      { url: "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=600&auto=format", caption: "Livre d'or", date: "Messages" },
-      { url: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600&auto=format", caption: "Confettis", date: "Lancer de riz" },
-      { url: "https://images.unsplash.com/photo-1520853504280-249b72dc947c?w=600&auto=format", caption: "Sortie d'église", date: "Moment clé" },
-      { url: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&auto=format", caption: "Danse", date: "Première danse" },
-      { url: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&auto=format", caption: "Décoration salle", date: "Salle de réception" },
-      { url: "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?w=600&auto=format", caption: "Pièce montée", date: "Gâteau" },
-      { url: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=600&auto=format", caption: "Enfants d'honneur", date: "Les petits" }
+      "image/_F1C5024.jpg.jpeg",
+      "image/_F1C5059.jpg.jpeg",
+      "image/_F1C5084.jpg.jpeg",
+      "image/_F1C5105.jpg.jpeg",
+      "image/_F1C5178.jpg.jpeg",
+      "image/_F1C5211.jpg.jpeg",
+      "image/_F1C5221.jpg.jpeg",
+      "image/_F1C5238.jpg.jpeg",
+      "image/_F1C5254.jpg.jpeg",
+      "image/_F1C5262.jpg.jpeg",
+      "image/_F1C5267.jpg.jpeg",
+      "image/_F1C5271.jpg.jpeg",
+      "image/_F1C5286.jpg.jpeg",
+      "image/_F1C5292.jpg.jpeg",
+      "image/_F1C5295.jpg.jpeg",
+      "image/_F1C5302.jpg.jpeg",
+      "image/_F1C5306.jpg.jpeg",
+      "image/_F1C5307.jpg.jpeg",
+      "image/_F1C5313.jpg.jpeg",
+      "image/_F1C5318.jpg.jpeg",
+      "image/_F1C5319.jpg.jpeg",
+      "image/_F1C5320.jpg.jpeg",
+      "image/_F1C5331.jpg.jpeg",
+      "image/_F1C5339.jpg.jpeg",
+      "image/_F1C5343.jpg.jpeg",
+      "image/_F1C5345.jpg.jpeg",
+      "image/_F1C5349.jpg.jpeg",
+      "image/_F1C5356.jpg.jpeg",
+      "image/_F1C5358.jpg.jpeg",
+      "image/_F1C5359.jpg.jpeg",
+      "image/_F1C5360.jpg.jpeg",
+      "image/_F1C5374.jpg.jpeg",
+      "image/_F1C5379.jpg.jpeg",
+      "image/_F1C5383.jpg.jpeg",
+      "image/_F1C5388.jpg.jpeg",
+      "image/_F1C5399.jpg.jpeg",
+      "image/_F1C5407.jpg.jpeg",
+      "image/_F1C5409.jpg.jpeg",
+      "image/_F1C5417.jpg.jpeg",
+      "image/_F1C5430.jpg.jpeg",
+      "image/_F1C5441.jpg.jpeg",
+      "image/_F1C5473.jpg.jpeg",
+      "image/_F1C5493.jpg.jpeg",
+      "image/_F1C5524.jpg.jpeg",
+      "image/_F1C5539.jpg.jpeg",
+      "image/_F1C5571.jpg.jpeg",
+      "image/_F1C5585.jpg.jpeg",
+      "image/_F1C5595.jpg.jpeg",
+      "image/_F1C5600.jpg.jpeg",
+      "image/_F1C5627.jpg.jpeg",
+      "image/_F1C5639.jpg.jpeg",
+      "image/_F1C5657.jpg.jpeg",
+      "image/_F1C5659.jpg.jpeg",
+      "image/_F1C5666.jpg.jpeg",
+      "image/_F1C5669.jpg.jpeg",
+      "image/_F1C5672.jpg.jpeg",
+      "image/_F1C5677.jpg.jpeg",
+      "image/_F1C5680.jpg.jpeg",
+      "image/_F1C5689.jpg.jpeg",
+      "image/_F1C5691.jpg.jpeg",
+      "image/_F1C5695.jpg.jpeg",
+      "image/_F1C5700.jpg.jpeg",
+      "image/_F1C5705.jpg.jpeg",
+      "image/_F1C5709.jpg.jpeg",
+      "image/_F1C5716.jpg.jpeg",
+      "image/_F1C5747.jpg.jpeg",
+      "image/_F1C5755.jpg.jpeg",
+      "image/_F1C5758.jpg.jpeg",
+      "image/_F1C5764.jpg.jpeg",
+      "image/_F1C5766.jpg.jpeg",
+      "image/_F1C5767.jpg.jpeg",
+      "image/_F1C5843.jpg.jpeg",
+      "image/_F1C5906.jpg.jpeg",
+      "image/_F1C5917.jpg.jpeg",
+      "image/_F1C5919.jpg.jpeg",
+      "image/_F1C5944.jpg.jpeg",
+      "image/_F1C5969.jpg.jpeg",
+      "image/_F1C5975.jpg.jpeg",
+      "image/_F1C6035.jpg.jpeg"
     ];
 
     const ITEMS_PER_PAGE = 10;
@@ -830,24 +832,33 @@
     function loadMoreImages() {
       const nextIndex = currentIndex + ITEMS_PER_PAGE;
       const imagesToShow = galleryImages.slice(currentIndex, nextIndex);
-      
+
       imagesToShow.forEach(img => {
         const item = document.createElement('div');
         item.className = 'gallery-item';
+        const imageUrl = (typeof img === 'string') ? img : img.url;
+        const caption = (typeof img === 'object') ? img.caption : '';
+        const date = (typeof img === 'object') ? img.date : '';
+
+        let captionHtml = '';
+        if (caption || date) {
+          captionHtml = `
+            <div class="gallery-caption">
+              ${caption ? `<span>♥ ${caption}</span>` : ''}
+              ${date ? `<small>${date}</small>` : ''}
+            </div>
+          `;
+        }
+
         item.innerHTML = `
-          <img src="${img.url}" alt="${img.caption}" loading="lazy">
-          <div class="gallery-caption">
-            <span>♥ ${img.caption}</span>
-            <small>${img.date}</small>
-          </div>
+          <img src="${imageUrl}" alt="${caption || 'Souvenir'}" loading="lazy">
+          ${captionHtml}
         `;
         galleryGrid.appendChild(item);
       });
 
       currentIndex = nextIndex;
       updateCountAndButton();
-
-      // ré-activer lucide pour les nouveaux cœurs éventuels (mais pas nécessaire ici)
     }
 
     function updateCountAndButton() {
@@ -871,6 +882,47 @@
 
     // événement bouton
     voirPlusBtn.addEventListener('click', loadMoreImages);
+
+    // ===== REMPLISSAGE DYNAMIQUE SECTION SOUVENIRS (depuis dossier /souvenir) =====
+    const souvenirFiles = [
+      "souvenir/alliance.jpeg",
+      "souvenir/a_deux.jpeg",
+      "souvenir/emotion.jpeg",
+      "souvenir/fierté.jpeg",
+      "souvenir/je-dis-oui.jpeg",
+      "souvenir/mon-seigneur et-mon-dieu.jpeg",
+      "souvenir/premier_part.jpeg"
+    ];
+
+    function filenameToCaption(fn) {
+      const base = fn.replace(/^.*[\\/]/, '').replace(/\.[^/.]+$/, '');
+      const cleaned = base.replace(/[-_]+/g, ' ').replace(/\s+/g, ' ').trim();
+      return cleaned.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+    }
+
+    const souvenirGrid = document.getElementById('souvenirGrid');
+    if (souvenirGrid) {
+      souvenirFiles.forEach(file => {
+        const caption = filenameToCaption(file);
+        const card = document.createElement('div');
+        card.className = 'souvenir-card';
+        card.style.background = 'rgba(255,255,255,0.6)';
+        card.style.borderRadius = '20px';
+        card.style.overflow = 'hidden';
+        card.style.boxShadow = '0 15px 30px -10px rgba(153,27,27,0.2)';
+        card.style.transition = 'transform 0.3s ease';
+
+        card.innerHTML = `
+          <img src="${file}" alt="${caption}" style="width:100%; height:220px; object-fit:cover;">
+          <div style="padding:1.5rem; text-align:center;">
+            <h3 style="color: var(--rose-burgundy); font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; margin-bottom: 0.5rem;">♥ ${caption}</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem;">Souvenir cher à nos cœurs.</p>
+          </div>
+        `;
+
+        souvenirGrid.appendChild(card);
+      });
+    }
   </script>
 </body>
 </html>
